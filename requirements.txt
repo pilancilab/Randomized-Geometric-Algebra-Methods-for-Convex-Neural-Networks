@@ -1,0 +1,14 @@
+cvxpy
+mosek
+torch
+torchvision
+torchaudio
+scikit-learn
+matplotlib
+tqdm
+pandas
+datasets
+transformers
+openai
+chardet
+celer
