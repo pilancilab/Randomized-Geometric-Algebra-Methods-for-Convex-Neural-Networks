@@ -1,16 +1,22 @@
-# Numerical experiments
+# Randomized Geometric Algebra Methods for Convex Neural Networks
 
-## Download datasets
+## Video demonstration
+
+The videos which demonstrate the entire path of decision region of the (subsampled) Convex Lasso method with respect to the regularization parameter $\beta$ are available at [here](https://anonymous.4open.science/r/CVXNN-randomized-GA-D400/video/full.mp4). 
+
+## Numerical experiments
+
+### Download datasets
 - Download IMDB dataset from [here](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/) and Amazon dataset from [here](https://huggingface.co/datasets/amazon_polarity) and store them under the folder `./data/`.
 - Download GLUE-QQ, GLUE-COLA, MNIST and CIFAR10 datasets based on the notebook `dl_dataset_huggingface.ipynb`.
 
-## Install packages
+### Install packages
 
 ```
 pip install -r requirements.txt
 ```
 
-## Preprocess data
+### Preprocess data
 Run the following lines to obtain OpenAI embedding data.
 
 ```
@@ -23,7 +29,7 @@ python3 preprocess-dataset.py --data_path ./data --export_num 50K --embedding Op
 python3 preprocess-dataset.py --data_path ./data --export_num full --embedding OpenAI --data_name glue-cola
 ```
 
-## Reproduce results
+### Reproduce results
 
 For the result on 2D spiral dataset, simply open the notebook `Illustration_spiral.ipynb`.
 
@@ -40,6 +46,6 @@ done
 
 ```
 
-## Plot figures
+### Plot figures
 
 Open the notebook `FT_plot_input_num.ipynb`
