@@ -9,6 +9,7 @@ The videos which demonstrate the entire path of decision region of the (subsampl
 ### Download datasets
 - Download IMDB dataset from [here](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/) and Amazon dataset from [here](https://huggingface.co/datasets/amazon_polarity) and store them under the folder `./data/`.
 - Download GLUE-QQ, GLUE-COLA, MNIST and CIFAR10 datasets based on the notebook `dl_dataset_huggingface.ipynb`.
+- The ECG signals are stored in the WFDB format at a sampling rate of 100Hz. The signals are unpacked using the python package -https://wfdb.readthedocs.io/en/latest/. Additionally, text features are extracted using OpenAI’s embedding model.
 
 ### Install packages
 
