@@ -30,6 +30,8 @@ python3 preprocess-dataset.py --data_path ./data --export_num 50K --embedding Op
 python3 preprocess-dataset.py --data_path ./data --export_num full --embedding OpenAI --data_name glue-cola
 ```
 
+Open the notebook `ecg_signal_extraction_from_wfdb.ipynb`. 
+
 ### Reproduce results
 
 For the result on 2D spiral dataset, simply open the notebook `Illustration_spiral.ipynb`.
