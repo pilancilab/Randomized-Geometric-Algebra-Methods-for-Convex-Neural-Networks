@@ -52,3 +52,7 @@ done
 ### Plot figures
 
 Open the notebook `FT_plot_input_num.ipynb`
+
+### Reproduce ablation study
+
+Run the script `ablation.sh`.
